@@ -1,7 +1,7 @@
 resolvers += Resolver.sonatypeRepo("snapshots") 
 
 // The Play plugin
-addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.6.0-2016-10-12-cb0d314-SNAPSHOT")
+addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.6.0-M1")
 
 // Web plugins
 addSbtPlugin("com.typesafe.sbt" % "sbt-coffeescript" % "1.0.0")
@@ -20,4 +20,4 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-play-enhancer" % "1.1.0")
 
 // Play Ebean support, to enable, uncomment this line, and enable in your build.sbt using
 // enablePlugins(PlayEbean).
-// addSbtPlugin("com.typesafe.sbt" % "sbt-play-ebean" % "3.0.2")
+addSbtPlugin("com.typesafe.sbt" % "sbt-play-ebean" % "3.0.1")
