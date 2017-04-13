@@ -1,5 +1,3 @@
-resolvers += Resolver.sonatypeRepo("snapshots")
-
 // The Play plugin
 addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.6.0-M4")
 
