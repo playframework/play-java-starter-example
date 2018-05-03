@@ -13,6 +13,7 @@ sbt run
 ```
 
 And then go to http://localhost:9000 to see the running web application.
+
 If you would like to launch sbt with a specific port number directly:
 ```
 sbt "run 9005"
